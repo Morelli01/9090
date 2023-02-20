@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/9090/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vanilla App Template</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+  <script type="module" crossorigin src="/9090/assets/main-03f5ebd9.js"></script>
+  <link rel="stylesheet" href="/9090/assets/main-6ad2c661.css">
+</head>
+
+<body>
+    <section>
+        <h1>Lorem ipsum dolor sit amet.</h1>
+        <!-- Path to images as from index.html file -->
+        <img src="/9090/assets/javascript-8dac5379.svg" alt="" />
+    </section>
+
+    <!-- Loads the specified .html file -->
+    
+                
+                <link rel="stylesheet" href="/src/css/amenities.css">
+<link rel="stylesheet" href="/src/css/reset.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+
+<section class="amenities-section">
+    <div class="container">
+        <div class="amenities">
+                <h2 class="amenities-title">ЗРУЧНОСТІ У НОМЕРІ</h2>
+                <p class="text-subtitle">
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                    sint. Velit officia consequat duis enim velit mollit. Exercitation
+                    veniam consequat sunt nostrud amet.
+                </p>
+                <ul class="amenities-list">
+                    <li class="amenities-item">
+                        <h3 class="amenities-subtitle">ЗАГАЛЬНІ</h3>
+                        <div class="amenities-box"><p class="amenities-text">
+                            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                            sint. Velit officia consequat duis enim velit mollit. Exercitation
+                            veniam consequat sunt nostrud amet. </p>
+                        <p class="amenities-text">
+                            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                            sint. Velit officia consequat duis enim velit mollit. Exercitation
+                            veniam consequat sunt nostrud amet.
+                        </p></div>
+                    </li>
+                    <li class="amenities-item">
+                        <h3 class="amenities-subtitle">ВАННА КІМНАТА</h3>
+                        <div class="amenities-box"><p class="amenities-text">
+                            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                            sint. Velit officia consequat duis enim velit mollit. Exercitation
+                            veniam consequat sunt nostrud amet. </p>
+                        <p class="amenities-text">
+                            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                            sint. Velit officia consequat duis enim velit mollit. Exercitation
+                            veniam consequat sunt nostrud amet.
+                        </p></div>
+                    </li>
+                    <li class="amenities-item">
+                        <h3 class="amenities-subtitle">СПАЛЬНЯ</h3>
+                        <p class="amenities-text">
+                            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                            sint.
+                        </p>
+                    </li>
+                    <li class="amenities-item">
+                        <h3 class="amenities-subtitle">КУХНЯ</h3>
+                        <div class="amenities-box"><p class="amenities-text">
+                            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                            sint. </p>
+                        <p class="amenities-text">
+                            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                            sint.
+                        </p></div>
+                    </li>
+                    <li class="amenities-item">
+                        <h3 class="amenities-subtitle">МЕДІА</h3>
+                    <p class="amenities-text">
+                            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                            sint. Velit officia consequat duis enim velit mollit.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+
+                <div class="booking">
+                    <button data-modal-open type="button" class="booking-button" >ОФОРМИТИ БРОНЮВАННЯ</button>
+                    <div class="booking-link">
+                    <a href="./hotel.html" class="hotel-link">Повернутися до перегляду номерів
+                        <svg class="booking-svg" width="30" height="17">
+                            <use href="../img/sprite.svg#icon-arrow-right"></use>
+                        </svg>
+                    </a>
+                    </div>
+                </div>
+            <div class="backdrop is-hidden" data-modal>
+                <div class="amenities-modal">
+                    <button class="amenities-modal-close" data-modal-close>
+                        <svg class="amenities-icon" width="24" height="24">
+                            <use href="../img/sprite.svg#icon-close"></use>
+                        </svg>
+                    </button>
+                    <p class="amenities-modal-title">ЗАБРОНЮВАТИ НОМЕР</p>
+                    <form class="amenities-form">
+                        <label class="modal-form-label"></label>
+                        <input type="text" class="modal-input" name="name" id="name" placeholder="Ваше ім’я">
+                        <span class="modal-text">На кого забронювати номер?</span>
+
+                        <label class="modal-form-label"></label>
+                        <input type="text" class="modal-input" name="tel" id="tel" placeholder="+38 (___) ___-__-__">
+                        <span class="modal-text">Номер телефону</span>
+
+                        <label class="modal-form-label"></label>
+                        <span class="modal-wrap">
+                        <input type="text" class="modal-input wrap" name="number" id="number" placeholder="Двомісний люкс">
+                        <svg class="modal-svg" width="24" height="24">
+                            <use href="../img/sprite.svg#icon-arrow-down-modal"></use>
+                        </svg>
+                        </span>
+                        <span class="modal-text">Категорія номеру</span>
+
+                        
+                        <label class="modal-form-label"></label>
+                        <span class="modal-wrap">
+                            <input type="text" class="modal-input" name="day" id="dayr" placeholder="Сьогодні">
+                            <svg class="modal-svg" width="24" height="24">
+                                <use href="../img/sprite.svg#icon-arrow-down-modal"></use>
+                            </svg>
+                        </span>
+                        <span class="modal-text">Дата заїзду</span>
+                        
+                        
+                        <label class="modal-form-label"></label>
+                        <span class="modal-wrap">
+                            <input type="text" class="modal-input" name="day" id="day" placeholder="Сьогодні">
+                            <svg class="modal-svg" width="24" height="24">
+                                <use href="../img/sprite.svg#icon-arrow-down-modal"></use>
+                            </svg>
+                        </span>
+                        <span class="modal-text">Дата виїзду</span>
+
+                        <button type="submit" class="button-submit">ОФОРМИТИ БРОНЮВАННЯ</button>
+                    </form>
+                </div>
+        </div>
+    </div>
+</section>
+<script src="./modal.js"></script> 
+
+
+
+                    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.css">
+<link rel="stylesheet" href="../css/reset.css">
+<link rel="stylesheet" href="../css/footer.css">
+<!------footer-------->
+<footer class="footer">
+    <!-- <div class="container"> -->
+        <div class="footer-wrapper">
+            <div class="footer-left-box">
+                <a href="./index.html" class="link footer-mimino"
+                  >MIMIHO</a>
+              </div>
+              <div class="footer-right-box">        
+                <nav class="footer-site-navigation">
+                  <ul class="footer-site-nav-list list">
+                    <li class="footer-site-nav-item">
+                      <a class="footer-nav-link link" href="#">Головна</a>
+                    </li>
+                    <li class="footer-site-nav-item">
+                      <a class="footer-nav-link link" href="#">Ресторан</a>
+                    </li>
+                    <li class="footer-site-nav-item">
+                      <a class="footer-nav-link link" href="#">Готель</a>
+                    </li>
+                  </ul>
+                </nav>
+                <ul class="footer-social-list list">
+                    <li class="footer-social-item">
+                        <a href="#" class="footer-soc-tittle">Telegram</a>
+                        <a href="#" class="footer-social-link">
+                        <svg class="footer-social-icon" width="22" height="22">
+                          <use href="../img/sprite.svg#icon-telegram"></use>
+                        </svg>                       
+                      </a>
+
+                    </li>
+                    <li class="footer-social-item">
+                        <a href="#" class="footer-soc-tittle">Facebook</a>
+                        <a href="#" class="footer-social-link">
+                        <svg class="footer-social-icon" width="22" height="22">
+                          <use href="../img/sprite.svg#icon-facebook"></use>
+                        </svg>
+                      </a>                      
+                    </li>
+                    <li class="footer-social-item">
+                        <a href="#" class="footer-soc-tittle">Instagram</a>
+                        <a href="#" class="footer-social-link">
+                        <svg class="footer-social-icon" width="22" height="22">
+                          <use href="../img/sprite.svg#icon-instagram"></use>
+                        </svg>
+                      </a>                      
+                    </li>
+                </ul>
+              </div>
+        </div>
+    <!-- </div> -->
+  </footer>
+
+    
+</body>
+
+</html>
